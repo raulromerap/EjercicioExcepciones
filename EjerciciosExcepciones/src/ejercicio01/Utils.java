@@ -11,7 +11,6 @@ public class Utils {
 			num = sc.nextDouble();
 		}catch(InputMismatchException e) {
 			System.out.println("El valor introducido no es de tipo double");
-			num = 0.0;
 		}finally {
 			sc.nextLine();
 		}
@@ -24,7 +23,6 @@ public class Utils {
 			num = sc.nextInt();
 		}catch(InputMismatchException e) {
 			System.out.println("El valor introducido no es de tipo int");
-			num = 0;
 		}finally {
 			sc.nextLine();
 		}

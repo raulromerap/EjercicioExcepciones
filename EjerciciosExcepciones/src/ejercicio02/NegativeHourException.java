@@ -1,7 +1,7 @@
 package ejercicio02;
 
-public class NegativeHourException {
+public class NegativeHourException extends Exception{
 	public String toString() {
-		return "";
+		return "La hora no puede ser negativa";
 	}
 }
